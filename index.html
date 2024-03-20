@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0"> 
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <title>Challenge Encriptador</title>
+    </head>
+
+    <body>
+        <header>
+                <img class="logo" src="/imagenes/logoAlura.png" alt="logoAlura" >
+        </header>
+        
+        <main>
+            <section>
+                <textarea Class= "textArea" cols="30" rows="10" placeholder="Escriba el texto aqui"></textarea>
+                <div>
+                    <h6 class="info">Solo letras minusculas, sin acentos, números o caracteres especiales</h6>
+                </div>
+                <div class="botones">
+                    <button class="btnEncriptar", onclick="clickEncriptar()">Encriptar</button>
+                    <button class="btnDesencriptar", onclick="clickDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+
+            <Section>
+                <textarea class="textAreaResultado" cols="20" rows="10"></textarea>
+                <div>
+                    <button id = "myBtnCopiar", onclick="clickCopiarResultado()" class="btnCopiar">Copiar</button>
+                </div>
+                <div id="mensajeCopiado" class="escondido">Copiado!</div>
+            </Section>
+
+        </main>
+        <footer>
+            <p class="myName">Diego Alberto Garcia Ramirez - 2024</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -32,7 +32,7 @@ main{
 
 .textAreaResultado{
     background: white;
-    background-image: url(/imagenes/MuñecomunecoCompletoMasTexto.png);
+    background-image: url(./imagenes/MuñecomunecoCompletoMasTexto.png);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;

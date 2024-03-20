@@ -93,7 +93,7 @@ main{
 }
 
 .myName{
-    text-align:center;
+    text-align: left;
     font-style: italic;
     font-weight: bold;
 }
